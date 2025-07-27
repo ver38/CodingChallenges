@@ -82,3 +82,9 @@ print("is 32 a power of 1? \(invalidBase)\n")
 
 let zeroBase = checkIfPowerOfAnyNumber(base: 2, number: 0) // false
 print("is 0 a power of 2? \(zeroBase)\n")
+
+print("=== countVowels() ===")
+countVowels(_in: "frittatina")
+
+print("=== countNumberOfDigits() ===")
+countNumberOfDigits(_for: 12345678)
